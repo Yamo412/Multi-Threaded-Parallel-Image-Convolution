@@ -10,7 +10,7 @@ To compile the program, you will need a C++ compiler that supports C++11 or late
 2.Navigate to the project directory.
 3.Run make to compile the program. This should produce an executable named papply_filter.
 
-#Usage
+Usage
 To run the image convolution program, use the following command format:
 
 ./papply_filter <input_image_file> <mask_file> <output_image_file> <number_of_threads>
@@ -22,14 +22,14 @@ To run the image convolution program, use the following command format:
 
 Example: ./papply_filter input.txt mask.txt output.txt 4
 
-#Input File Format
+Input File Format
 
 The input image and mask should be provided as text files in the following formats:
 
 - Input Image File: The first line contains two integers representing the image dimensions (rows and columns). The subsequent lines contain the pixel values of the image.
 - Mask File: The first line contains a single integer n, representing the size of the n x n mask. The next n lines contain the mask values.
 
-#Features
+Features
 
 - Utilizes multi-threading to improve the performance of image convolution operations.
 - Supports custom convolution masks and variable thread counts.
