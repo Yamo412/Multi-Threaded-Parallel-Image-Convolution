@@ -13,14 +13,14 @@ To compile the program, you will need a C++ compiler that supports C++11 or late
 **Usage**
 To run the image convolution program, use the following command format:
 
-./papply_filter <input_image_file> <mask_file> <output_image_file> <number_of_threads>
+```./papply_filter <input_image_file> <mask_file> <output_image_file> <number_of_threads>```
 
 - <input_image_file>: Path to the input image file.
 - <mask_file>: Path to the convolution mask file.
 - <output_image_file>: Path to save the output (convolved) image.
 - <number_of_threads>: The number of threads to use for processing.
 
-Example: ./papply_filter input.txt mask.txt output.txt 4
+Example: ```./papply_filter input.txt mask.txt output.txt 4```
 
 **Input File Format**
 
