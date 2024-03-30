@@ -6,9 +6,9 @@ This project demonstrates a multi-threaded approach to performing image convolut
 #Installation
 To compile the program, you will need a C++ compiler that supports C++11 or later and pthreads for threading support. A Makefile is included for convenience.
 
-1.Clone this repository or download the source files.
-2.Navigate to the project directory.
-3.Run make to compile the program. This should produce an executable named papply_filter.
+- 1.Clone this repository or download the source files.
+- 2.Navigate to the project directory.
+- 3.Run make to compile the program. This should produce an executable named papply_filter.
 
 Usage
 To run the image convolution program, use the following command format:
